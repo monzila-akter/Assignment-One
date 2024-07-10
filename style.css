@@ -18,8 +18,9 @@ nav {
 }
 .nav-title {
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 600;
   color: rgb(13, 19, 33);
+  font-family: sans-serif;
 }
 .nav-btn {
   font-size: 20px;
@@ -90,13 +91,11 @@ nav {
   padding: 80px 97px 80px 97px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
-  border: 1px solid red;
 }
 .benefit {
   max-width: 946px;
   height: 1233px;
   position: static;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -134,7 +133,6 @@ nav {
   margin: 0;
   margin-top: 48px;
   position: static;
-  border: 1px solid red;
 }
 .coding-one {
   width: 850px;
@@ -143,7 +141,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 .coding-text {
   width: 477px;
@@ -154,14 +151,12 @@ nav {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-  border: 1px solid red;
   margin-right: 40px;
 }
 .coding-img {
   width: 274px;
   height: 240px;
   position: absolute;
-  border: 1px solid red;
   margin-left: 576px;
 }
 .creating {
@@ -171,7 +166,6 @@ nav {
   margin: 0;
   margin-top: 32px;
   position: static;
-  border: 1px solid red;
 }
 .creating-one {
   width: 850px;
@@ -181,13 +175,11 @@ nav {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 .creating-img {
   width: 240px;
   height: 240px;
   position: absolute;
-  border: 1px solid red;
   margin-right: 610px;
 }
 
@@ -199,7 +191,6 @@ nav {
   margin-top: 32px;
   margin-bottom: 0;
   position: static;
-  border: 1px solid red;
 }
 .changing-one {
   width: 850px;
@@ -208,14 +199,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 
 .changing-img {
   width: 240px;
   height: 240px;
   position: absolute;
-  border: 1px solid red;
   margin-left: 610px;
 }
 .coding-text h3 {
@@ -261,7 +250,6 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid red;
 }
 .video-text {
   width: 852px;
@@ -271,7 +259,6 @@ nav {
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-  border: 1px solid red;
 }
 .video-text h2 {
   color: rgb(13, 19, 33);
@@ -317,7 +304,6 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid red;
 }
 .target-text {
   width: 946px;
@@ -326,7 +312,6 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid red;
 }
 .target-text h2 {
   color: rgb(13, 19, 33);
@@ -353,7 +338,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  border: 1px solid red;
   margin-top: 48px;
 }
 .item-one {
@@ -381,7 +365,6 @@ nav {
 .item-text {
   width: 284px;
   height: 219px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -414,6 +397,7 @@ nav {
   font-weight: 700;
   text-align: left;
 }
+/* styles support section here */
 .support {
   max-width: 1140px;
   height: 313px;
@@ -422,7 +406,6 @@ nav {
   margin-bottom: 50px;
   padding: 64px 48px 64px 48px;
   border-radius: 16px;
-  border: 1px solid red;
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2),
@@ -441,7 +424,6 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 0px;
-  border: 1px solid white;
 }
 .support-text {
   width: 730px;
@@ -451,7 +433,6 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 0px;
-  border: 1px solid white;
   margin-bottom: 24px;
 }
 
@@ -479,7 +460,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  border: 1px solid white;
 }
 .support-form input[type="text"] {
   width: 548px;
@@ -517,15 +497,11 @@ nav {
 footer {
   height: 100px;
   display: flex;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 32px 150px 32px 150px;
-  border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
-  margin: 0 auto;
-  margin-top: 80px;
-  border: 1px solid red;
 }
 .contact {
   width: 1140px;
@@ -535,28 +511,23 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  border: 1px solid red;
 }
-.contact-text p {
-  color: rgb(13, 19, 33);
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
+.contact-text {
+  width: 456px;
+  height: 23px;
 }
 .contact-icon {
-  width: 158px;
+  width: 157px;
   height: 36px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: right;
-  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
 }
 .contact-text p {
   color: rgb(13, 19, 33);
   font-family: sans-serif;
   font-size: 20px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
 }
