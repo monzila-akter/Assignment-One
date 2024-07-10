@@ -513,3 +513,50 @@ nav {
   font-weight: 600;
   text-align: center;
 }
+/* style footer section here */
+footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 150px 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  margin: 0 auto;
+  margin-top: 80px;
+  border: 1px solid red;
+}
+.contact {
+  width: 1140px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid red;
+}
+.contact-text p {
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.contact-icon {
+  width: 158px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: right;
+  gap: 24px;
+}
+.contact-text p {
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
