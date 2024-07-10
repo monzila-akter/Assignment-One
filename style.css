@@ -306,3 +306,111 @@ nav {
 .iframe {
   border-radius: 16px;
 }
+/* styles target section here */
+.target {
+  max-width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 151px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid red;
+}
+.target-text {
+  width: 946px;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid red;
+}
+.target-text h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 24px;
+}
+.target-text p {
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+}
+.target-item {
+  width: 1140px;
+  height: 299px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid red;
+  margin-top: 48px;
+}
+.item-one {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.item-two {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.item-three {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.item-text {
+  width: 284px;
+  height: 219px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+}
+.item-text h3 {
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.item-text p {
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.item-text a {
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
