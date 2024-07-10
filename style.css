@@ -414,3 +414,102 @@ nav {
   font-weight: 700;
   text-align: left;
 }
+.support {
+  max-width: 1140px;
+  height: 313px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  border: 1px solid red;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../Assignment-One/assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.support-content {
+  width: 1044px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid white;
+}
+.support-text {
+  width: 730px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid white;
+  margin-bottom: 24px;
+}
+
+.support-text h2 {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.support-text p {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 16px;
+}
+.support-form {
+  width: 684px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid white;
+}
+.support-form input[type="text"] {
+  width: 548px;
+  height: 57px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 19px 20px 19px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.support-form input[type="submit"] {
+  width: 120px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 20px 17px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
